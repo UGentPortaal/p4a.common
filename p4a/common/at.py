@@ -1,12 +1,12 @@
 from Acquisition import aq_inner, aq_base
 from zope import schema
 from zope.formlib import form
-from zope.app.form.browser.textwidgets import TextAreaWidget
+from zope.formlib.textwidgets import TextAreaWidget
 try:
     from Products.Five.formlib.formbase import PageDisplayForm, PageForm
 except ImportError:
     from five.formlib.formbase import PageDisplayForm, PageForm
-    
+
 from Products.Five.browser import BrowserView
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 

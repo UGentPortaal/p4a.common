@@ -31,6 +31,7 @@ setup(name='p4a.common',
       install_requires=[
           "setuptools",
           "python-dateutil",
+          "five.formlib",
       ],
       entry_points="""
       # -*- Entry points: -*-
